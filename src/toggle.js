@@ -7,7 +7,8 @@ const Toggle = () => {
         //opacity: isToggled ? 1 : 0,
         color: isToggled ? 'tomato' : 'green',
        // fontSize: isToggled ? '1.5rem' : '10em',
-        transform: isToggled ? 'translate3d(0, 0, 0)' : 'translate3d(0, -50px, 0)',
+      //  transform: isToggled ? 'translate3d(0, 0, 0)' : 'translate3d(0, -50px, 0)',
+     y: isToggled ? 0 : -50
 
      })
     return (
@@ -17,5 +18,5 @@ const Toggle = () => {
         </div>
     )
 }
-
+//const AnimatedTitle = animated.h1;
 export default Toggle
